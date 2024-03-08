@@ -33,6 +33,7 @@
     "test": "astro-scripts test \"test/**/*.test.js\""
   },
   "dependencies": {
+    "@tailwindcss/vite": "4.0.0-alpha.6",
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.35",
     "postcss-load-config": "^4.0.2"
@@ -40,7 +41,7 @@
   "devDependencies": {
     "astro": "workspace:*",
     "astro-scripts": "workspace:*",
-    "tailwindcss": "^3.3.5",
+    "tailwindcss": "4.0.0-alpha.6",
     "vite": "^5.1.4"
   },
   "peerDependencies": {
